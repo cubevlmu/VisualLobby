@@ -1,0 +1,8 @@
+name: VisualLobby
+version: '${project.version}'
+main: io.flybird.VisualLobby
+api-version: 1.15
+prefix: VisualLobby
+authors: [FlybirdStudio]
+description: The Minecraft Lobby Helper Plugin | 一个简单的Minecraft服务器大厅管理插件
+website: https://sunrisestidop.top

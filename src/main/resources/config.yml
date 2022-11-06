@@ -1,0 +1,69 @@
+#The VisualLobby Plugin Config
+World:
+  # Allow Server Change Weather
+  WeatherChangeDeny: true
+  # 0 -> Clear
+  # 1 -> Rain
+  # 2 -> Storm
+  Weather: 0
+  # Lock The World Time To
+  Time: 0
+  GameMode: Survival
+  # Set The World RepownPoint
+  RespownPoint:
+    # Is That Announce Player When They Respown
+    SendMessage: true
+    # The Message If You Enable The SendMessage Will Send This
+    Message: "You Are Teleport Back To The Zero Point"
+    x: 0
+    y: 100
+    z: 0
+  Announcer:
+    PlayerJoin:
+      # The Chat Bar Announc
+      Enable: true
+      Message: ["Welcome To Our Server"]
+    JoinTitle:
+      # On The Player Join The Game It Will Be Display
+      Enable: true
+      Message: "Welcome To Our Server"
+    RoundTitle:
+      # On The Task Run It Will Be Display
+      Enable: true
+      Message: "Hello To Our Server"
+      # The Time That Announcer To Display
+      Time: 30
+  Player:
+    # If This Enable The Player Will No Be Dead
+    # Even They Auto go to the void Or Falling Quick To The Ground
+    # This is Not Run Very Well
+    DisableDead: true
+    # If This Enable The Player Will Not Be Hunger
+    DisableHunger: true
+    # If This Enable The Player Will Not Be Heart
+    DisableHeart: true
+    # If This Enable The Player Is He or Her Dosn't Have Admin
+    # The Game Mode Will Be Change To Advantures
+    EnableProtectGameMode: true
+  Chat:
+    # The Chat Format We Suppot Some Placehelder
+    # But At Now You just Can Use These Placehelder
+    # {#name} means User name
+    # {#message} means the Chat Message
+    # {#displyName} means that the nick name for the player (this may not works
+    Format: "{#name} : {#message}"
+    # To toggle The Chat Message Scan
+    # May For Check The Dirty Message
+    EnableChatScan: false
+    DirtyMessage: []
+    # When The Admin Chat It Will Be Colored With This Color
+    AdminColor: "GOLD"
+Common:
+  # The Language That Plugin Use
+  # We Just Support Chinese English Now
+  Language: Chinese
+  # Check Plugin Update
+  Update: true
+  # The Plugin Config Version
+  # Please Do Not Change It
+  Version: 0.1

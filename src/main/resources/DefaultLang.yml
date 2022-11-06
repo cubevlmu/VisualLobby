@@ -1,0 +1,9 @@
+Info:
+  Name: Chinese
+  PreFix: "[VisualLobby]"
+Language:
+  Annoncer: "通知"
+  # The Chat Title
+  DirtyMsgWarnTitle: "聊天"
+  # The Word Means That The Warn World
+  DirtyMsgWarnContent: "您输入的这句话中包含不文明或不允许的词汇 -> {#word}"
